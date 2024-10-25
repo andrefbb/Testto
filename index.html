@@ -1,40 +1,49 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Página Web</title>
-        <link rel="stylesheet" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-    </head>
 
-    <body>
-        <div class="page">
-            <header>
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown button
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-dark">
-                      <li><a class="dropdown-item active" href="#">Cardápio</a></li>
-                      <li><a class="dropdown-item" href="#">Carrinho</a></li>
-                      <li><a class="dropdown-item" href="#">Localização</a></li>
-                      <li><a class="dropdown-item" href="#">Endereço de Entrega</a></li>
-                      <li><a class="dropdown-item" href="#">Meus pedidos</a></li>
-                    </ul>
-         
+<head>
+  <meta charset="UTF-8">
+  <title>Página Web</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-             
-            </header>
+<body>
+  <header>
+    <div class="dropdown">
+      <button class="dropbtn">☰</button>
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
 
-            <main>
-                <img src="img/image.png">
+    <div class="menu-pesquisa">
+      <form action="#" method="post">
+        <input type="text" name="search" id="search" placeholder="Faça sua busca">
+      </form>
+      <i class="fa fa-user-o" aria-hidden="true"></i>
+      <i class="fa fa-user-o" aria-hidden="true"></i>
+    </div>
 
-            </main>
+  </header>
 
-            <footer>
-                <div class="copyright">Copyright</div>
-                <div class="socialMedia">Mídia Social</div>
-            </footer>
-        </div>
-    </body>
+  <main>
+    <img src="img/image.png" class="image" alt="burger">
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <!-- <div class="imagem-footer" img src="img/Redes Socias.png" class="image" alt="redes-sociais"> -->
+      <div class="footer-item">Copyright</div>
+      <div class="footer-item">Bandeiras</div>
+      <div class="footer-item">Mídia Social</div>
+    </div>
+  </footer>
+
+  </div>
+</body>
+
 </html>
